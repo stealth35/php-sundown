@@ -4,4 +4,6 @@ php:
   - 5.3
   - 5.4
 
-before_script: rake submodule compile
+before_script:
+  - rake submodule compile install
+  - echo "extension=sundown.so" >> `php --ini | grep "Loaded Configuration" | sed -e "s|.*:\s*||"`
