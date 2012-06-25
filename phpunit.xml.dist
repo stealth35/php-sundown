@@ -5,7 +5,7 @@
 >
     <testsuites>
         <testsuite name="PHPUnit_Extensions_PhptTestSuite">
-            <directory suffix=".phpt">./ext/intl</directory>
+            <directory suffix=".phpt">./tests</directory>
         </testsuite>
     </testsuites>
 </phpunit>
