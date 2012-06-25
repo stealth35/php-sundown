@@ -1,0 +1,11 @@
+<phpunit
+    backupGlobals="false"
+    colors="true"
+    processIsolation="true"
+>
+    <testsuites>
+        <testsuite name="PHPUnit_Extensions_PhptTestSuite">
+            <directory suffix=".phpt">./ext/intl</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
